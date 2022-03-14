@@ -7,6 +7,7 @@ public class FPSShooter : MonoBehaviour
     public Camera cam;
     public GameObject projectile;
     public Transform LHFirePoint, RHFirePoint;
+    public AudioSource fireshot;
     public float projectileSpeed = 30;
     public float fireRate = 4;
     public float arcRange = 1;

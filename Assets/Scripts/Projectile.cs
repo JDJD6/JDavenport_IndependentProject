@@ -5,8 +5,15 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     public GameObject impactVFX;
+    public AudioClip shoot;
+    public AudioClip explosion;
     
     private bool collided;
+
+    private void Start()
+    {
+        AudioSource.PlayClipAtPoint(shoot, transform.position);
+    }
     void OnCollisionEnter (Collision co)
     {
         if(co.gameObject.tag != "Bullet" && co.gameObject.tag != "Player" && !collided)
@@ -18,6 +25,8 @@ public class Projectile : MonoBehaviour
             Destroy(impact, 2);
 
             Destroy(gameObject);
+
+            AudioSource.PlayClipAtPoint(explosion, transform.position);
         }
     }
 }
