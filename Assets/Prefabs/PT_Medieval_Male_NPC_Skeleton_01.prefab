@@ -607,9 +607,9 @@ GameObject:
   - component: {fileID: 1948329710155936262}
   - component: {fileID: 1948329710165024164}
   - component: {fileID: 6177330479898731919}
-  - component: {fileID: 5398762555651029421}
   - component: {fileID: 5264229726696964758}
   - component: {fileID: 5962993669366846825}
+  - component: {fileID: -3871534354568910997}
   m_Layer: 0
   m_Name: PT_Medieval_Male_NPC_Skeleton_01
   m_TagString: Untagged
@@ -665,18 +665,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: -10
---- !u!114 &5398762555651029421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948329710155509286}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d5e30013d531b43b3d230a0aa15c59, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &5264229726696964758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -704,6 +692,18 @@ CapsuleCollider:
   m_Height: 1.7878888
   m_Direction: 1
   m_Center: {x: -0.01950267, y: 0.88166225, z: 0.029354155}
+--- !u!114 &-3871534354568910997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948329710155509286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18d5e30013d531b43b3d230a0aa15c59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1948329710155509288
 GameObject:
   m_ObjectHideFlags: 0
