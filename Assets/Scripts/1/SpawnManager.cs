@@ -23,7 +23,7 @@ public class SpawnManager : MonoBehaviour
     {
         float randXPos = Random.Range(-xPosRange, xPosRange);
         int animalPrefabIndex = Random.Range(0, animalPrefabs.Length);
-        Vector3 randPos = new Vector3(randXPos, 0, 21);
+        Vector3 randPos = new Vector3(randXPos, 0, 60);
         Instantiate(animalPrefabs[animalPrefabIndex], randPos,
             animalPrefabs[animalPrefabIndex].transform.rotation);
     }

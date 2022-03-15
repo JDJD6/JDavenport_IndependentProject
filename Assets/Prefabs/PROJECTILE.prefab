@@ -5012,7 +5012,6 @@ GameObject:
   - component: {fileID: 1874731035259470431}
   - component: {fileID: 938667876519584}
   - component: {fileID: 2138975536811369333}
-  - component: {fileID: 3480524930049172276}
   m_Layer: 0
   m_Name: PROJECTILE
   m_TagString: Bullet
@@ -5044,10 +5043,10 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4634262514583454399}
   serializedVersion: 2
-  m_Mass: 0.3
+  m_Mass: 3
   m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_AngularDrag: 0.03
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -5063,7 +5062,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.2
+  m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2138975536811369333
 MonoBehaviour:
@@ -5077,19 +5076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de73402f7c89f064883fa9155964c273, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  impactVFX: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+  impactVFX: {fileID: 1000013462590818, guid: ecdd96beb7f93494880c052dfccf9dc1, type: 3}
   shoot: {fileID: 8300000, guid: 222ab53a4e10c3b44b458760c78653b5, type: 3}
-  explosion: {fileID: 8300000, guid: a5d1ea187f09fc7469abca8ba9da465c, type: 3}
---- !u!114 &3480524930049172276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4634262514583454399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dff2b017eacad1f47a26a9061881a6e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  explosion: {fileID: 6917088233386724331, guid: 92ea752d0ec549c4d9463f7079e0aacc, type: 3}
+  explosion: {fileID: 8300000, guid: 437163ab956d89146aef2ab8271697ff, type: 3}
