@@ -705,7 +705,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d5e30013d531b43b3d230a0aa15c59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 0}
+  - {fileID: 0}
   gameOver: 0
+  gameOverText: {fileID: 0}
+  restartButton: {fileID: 0}
 --- !u!54 &-9064078599347098008
 Rigidbody:
   m_ObjectHideFlags: 0
